@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 0 0 0;
+}
+
+.input {
+    padding: 1em;
+    border: 3px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    
+    outline: none;
+}
+
+.preview--container, .input--container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+.input:valid ~ .btn {
+    opacity: 1;
+}
+
+.btn {
+    padding: .5em;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 5px;
+    
+    outline: none;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+.downloadBtn {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
